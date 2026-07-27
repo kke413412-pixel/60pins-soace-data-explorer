@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60Pins 太空数据探索</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <!-- ===== HEADER ===== -->
+        <header id="header">
+            <h1>🚀 60Pins 太空数据探索</h1>
+            <p>探索模拟太空任务中的温度与光照数据变化</p>
+        </header>
+
+        <!-- ===== MISSION ===== -->
+        <section id="mission">
+            <h2>📋 任务简介</h2>
+            <p>你是一名太空任务分析师。今天，你需要观察一段太空舱内的温度和光照数据，找出变化规律，并回答相关问题。</p>
+            <p>本次任务共收集了 8 组数据，涵盖 10:00 至 11:10 的时间段。请仔细分析，完成挑战！</p>
+            <a href="#summary" class="btn">开始探索 ↓</a>
+        </section>
+
+        <!-- ===== STEPS ===== -->
+        <section id="steps">
+            <h2>📌 任务流程</h2>
+            <div class="steps-grid">
+                <div class="step">① 阅读任务</div>
+                <div class="step">② 观察数据</div>
+                <div class="step">③ 分析变化</div>
+                <div class="step">④ 回答问题</div>
+            </div>
+        </section>
+
+        <!-- ===== SUMMARY ===== -->
+        <section id="summary">
+            <h2>📊 数据摘要</h2>
+            <div class="summary-cards">
+                <div class="card" id="card-max-temp">最高温度：-- °C</div>
+                <div class="card" id="card-min-temp">最低温度：-- °C</div>
+                <div class="card" id="card-avg-temp">平均温度：-- °C</div>
+                <div class="card" id="card-max-light">最大光照：--</div>
+            </div>
+            <p class="observation" id="observation">加载数据中...</p>
+        </section>
+
+        <!-- ===== CHART ===== -->
+        <section id="chart">
+            <h2>📈 温度变化图</h2>
+            <div class="chart-container">
+                <canvas id="temperature-chart"></canvas>
+            </div>
+        </section>
+
+        <!-- ===== DATA TABLE ===== -->
+        <section id="data">
+            <h2>📋 数据表格</h2>
+            <div id="data-message"></div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>时间</th>
+                            <th>温度</th>
+                            <th>光照</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-body">
+                        <!-- JavaScript 动态生成 -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ===== QUIZ ===== -->
+        <section id="quiz">
+            <h2>📝 知识测验</h2>
+            <div id="quiz-container">
+                <!-- 由 JavaScript 生成 -->
+            </div>
+            <div id="quiz-result"></div>
+            <button id="restart-btn">重新开始</button>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <p>© 2026 60Pins · 太空数据互动网页</p>
+        </footer>
+    </main>
+</body>
+</html>
