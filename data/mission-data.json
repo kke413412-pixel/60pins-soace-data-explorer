@@ -1,0 +1,10 @@
+[
+  {"time": "10:00", "temperature": 23, "light": 120},
+  {"time": "10:10", "temperature": 24, "light": 135},
+  {"time": "10:20", "temperature": 25, "light": 150},
+  {"time": "10:30", "temperature": 24, "light": 142},
+  {"time": "10:40", "temperature": 22, "light": 118},
+  {"time": "10:50", "temperature": 21, "light": 96},
+  {"time": "11:00", "temperature": 22, "light": 105},
+  {"time": "11:10", "temperature": 23, "light": 125}
+]
