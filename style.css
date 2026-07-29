@@ -242,6 +242,7 @@ tr:nth-child(even) {
     margin-top: 6px;
     font-weight: 500;
     font-size: 14px;
+    min-height: 24px;
 }
 
 #quiz-result {
@@ -249,6 +250,7 @@ tr:nth-child(even) {
     font-weight: 700;
     margin: 12px 0;
     color: #0f3460;
+    min-height: 36px;
 }
 
 #restart-btn {
